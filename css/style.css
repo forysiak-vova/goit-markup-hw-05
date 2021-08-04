@@ -74,6 +74,7 @@ img {
 /* =======розмітка Хедера======= */
 
 .link {
+  position: relative;
   color: var(--title-tex-color);
   font-weight: 500;
   font-size: 14px;
@@ -92,6 +93,16 @@ img {
 .contact__link {
   color: var(--primary-tex-color);
   display: flex;
+}
+.nav__link-activ::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: var(--accent-color);
+  bottom: -32px;
 }
 
 .heder__contact {
@@ -599,8 +610,11 @@ img {
   height: 100%;
   opacity: 0;
   padding: 63px 24px;
+  transform: translateY(100%);
 }
 .gallery__link:hover .gallery__action,
 .gallery__link:focus .gallery__action {
   opacity: 1;
+  transform: translateY(0);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
