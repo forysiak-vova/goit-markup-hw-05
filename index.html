@@ -54,17 +54,16 @@
 
    <section class="hero">
       <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-      <button type="button" class="hero__button">Заказать услугу</button>      
+      <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>      
    </section>
-
-   <div class="backdrop">
-      <div class="modal"></div>
-   </div> 
 
     <!-- =======Розмітка модельного вікна======= -->
 
-   <div class="backdrop">
-      <div class="modal"></div>
+   <div class="backdrop is-hidden"  data-modal>
+      <div class="modal data-modal">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsa eaque debitis earum repudiandae fuga, quos atque mollitia consequuntur numquam laborum maiores autem, magnam unde nisi reiciendis laboriosam deleniti nam!</p>
+         <button data-modal-close>закрить</button>
+      </div>
    </div>
 
 
