@@ -57,6 +57,16 @@
       <button type="button" class="hero__button">Заказать услугу</button>      
    </section>
 
+   <div class="backdrop">
+      <div class="modal"></div>
+   </div> 
+
+    <!-- =======Розмітка модельного вікна======= -->
+
+   <div class="backdrop">
+      <div class="modal"></div>
+   </div>
+
 
 <!-- =====Секція features=====-->
 
@@ -117,9 +127,25 @@
               <div class="container">
                <h2 class="work__title title">Чем мы занимаемся</h2>
                <ul class="work__list list">
-                  <li><img src="./img/box.jpg" alt="написання коду" width="370"></li>
-                  <li><img src="./img/imgg.jpg" alt="робота" width="370"></li>
-                  <li><img src="./img/images.jpg" alt="моніторинг" width="370"></li>
+                  <li class="trumb__item">
+                        <img src="./img/box.jpg" alt="написання коду" width="370">
+                        <div class="work__action">
+                          <p>Десктопные приложения</p>
+                           </div>
+                     
+                  </li>
+                  <li class="trumb__item">
+                     <img src="./img/imgg.jpg" alt="робота" width="370">
+                     <div class="work__action">
+                        <p>Мобильные приложения</p>
+                     </div>
+                  </li>
+                  <li class="trumb__item">
+                     <img src="./img/images.jpg" alt="моніторинг" width="370">
+                     <div class="work__action">
+                        <p>Дизайнерские решения</p>
+                     </div>
+                  </li>
                </ul>
             </div>
            </section>
@@ -420,6 +446,8 @@
 </div>
 </div>
   </footer>
+
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
