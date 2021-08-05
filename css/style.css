@@ -590,9 +590,6 @@ img {
 .portfolio__item:last-child {
   margin-right: 0px;
 }
-.gallery__link {
-  text-decoration: none;
-}
 .gallery__trumb {
   position: relative;
   display: flex;
