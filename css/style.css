@@ -311,7 +311,6 @@ img {
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* background-color: green; */
 }
 .work__title {
   text-align: center;
@@ -327,7 +326,7 @@ img {
   grid-template-columns: repeat(3, 370px);
   gap: 30px;
 }
-.trumb__item {
+.work__item {
   position: relative;
 }
 .work__action {
