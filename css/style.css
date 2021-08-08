@@ -644,7 +644,6 @@ img {
   color: #ffffff;
   background-color: rgba(32, 148, 243, 0.9);
   height: 100%;
-  /* opacity: 0; */
   padding: 63px 24px;
   transform: translateY(100%);
   transition: transform var(--animation) var(--cubic);
